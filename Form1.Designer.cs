@@ -38,6 +38,9 @@
             linkLabel1 = new LinkLabel();
             listBox1 = new ListBox();
             checkBox3 = new CheckBox();
+            comboBox2 = new ComboBox();
+            linkLabel2 = new LinkLabel();
+            maskedTextBox1 = new MaskedTextBox();
             SuspendLayout();
             // 
             // button1
@@ -131,11 +134,39 @@
             checkBox3.Text = "checkBox3";
             checkBox3.UseVisualStyleBackColor = true;
             // 
+            // comboBox2
+            // 
+            comboBox2.FormattingEnabled = true;
+            comboBox2.Location = new Point(359, 74);
+            comboBox2.Name = "comboBox2";
+            comboBox2.Size = new Size(121, 25);
+            comboBox2.TabIndex = 10;
+            // 
+            // linkLabel2
+            // 
+            linkLabel2.AutoSize = true;
+            linkLabel2.Location = new Point(599, 86);
+            linkLabel2.Name = "linkLabel2";
+            linkLabel2.Size = new Size(66, 17);
+            linkLabel2.TabIndex = 11;
+            linkLabel2.TabStop = true;
+            linkLabel2.Text = "linkLabel2";
+            // 
+            // maskedTextBox1
+            // 
+            maskedTextBox1.Location = new Point(668, 183);
+            maskedTextBox1.Name = "maskedTextBox1";
+            maskedTextBox1.Size = new Size(100, 23);
+            maskedTextBox1.TabIndex = 12;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 17F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(maskedTextBox1);
+            Controls.Add(linkLabel2);
+            Controls.Add(comboBox2);
             Controls.Add(checkBox3);
             Controls.Add(listBox1);
             Controls.Add(linkLabel1);
@@ -164,5 +195,8 @@
         private LinkLabel linkLabel1;
         private ListBox listBox1;
         private CheckBox checkBox3;
+        private ComboBox comboBox2;
+        private LinkLabel linkLabel2;
+        private MaskedTextBox maskedTextBox1;
     }
 }
